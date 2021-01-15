@@ -1,6 +1,10 @@
 # GARY CSS
 A simple CSS framework with grid system usign CSS Grid, defined with 12 columns.
 
+```sh
+$ npm install gary-css
+```
+
 # Classes
 
 ### Containers
@@ -22,4 +26,4 @@ All columns must be within of a row
     - Note: Align left is default
 
 ## Feedback
-You can send any feedback in issues tab.
+You can send any feedback in https://github.com/Artikunazo/garycss/issues
