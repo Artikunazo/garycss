@@ -1,0 +1,25 @@
+{
+  "name": "gary-css",
+  "version": "1.0.20210120.1",
+  "description": "A simple CSS framework with grid system usign CSS Grid, defined with 12 columns. Using responsive design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artikunazo/garycss.git"
+  },
+  "keywords": [
+    "css grid",
+    "simple framework css",
+    "css grid framework",
+    "framework minimalist css"
+  ],
+  "author": "Artikunazo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Artikunazo/garycss/issues"
+  },
+  "homepage": "https://github.com/Artikunazo/garycss#readme"
+}

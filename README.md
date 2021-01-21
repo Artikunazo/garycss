@@ -26,4 +26,7 @@ All columns must be within of a row
     - Note: Align left is default
 
 ## Feedback
-You can send any feedback in https://github.com/Artikunazo/garycss/issues
+All feedback is welcome!. You can send any feedback in https://github.com/Artikunazo/garycss/issues
+
+
+Regards and Thx!
