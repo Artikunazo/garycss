@@ -25,8 +25,41 @@ All columns must be within of a row
     - .item-right: Align the self item to right
     - Note: Align left is default
 
+### Responsive breakpoints
+- You can use .xs, .sm, .md and .lg classes to use the 12 columns in a device respective:
+    - .xs: extra-small devices (max width: 575.98px)
+    - .sm: small devices (max width: 767.98px)
+    - .md: medium devices (max width: 991.98px)
+    - .lg: large devices (max width: infinite :P)
+
+- Also, You can use and combine .xs-number, .sm-number, .md-number and .lg-number classes, example:
+    ```sh
+        <div class="col-6 xs-4 md-8 lg"></div>
+    ```
+
+
 ## Feedback
 All feedback is welcome!. You can send any feedback in https://github.com/Artikunazo/garycss/issues
 
 
-Regards and Thx!
+Regards, Thx and Enjoy!
+
+
+
+#ChangeLog
+
+## [1.1.20210122.1] 2021-01-22
+### Added
++ Responsive breakpoints implement: xs, sm, md and lg
+
+### Modify
+- Update Readme.md
+
+
+## [1.0.2021012-0.1]
+### Modify
+- Update Readme.md
+
+## [1.0] - 2021-01-12
+### Added
+- Implement Grid System with 12 columns using CSS Grid
