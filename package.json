@@ -1,6 +1,6 @@
 {
   "name": "gary-css",
-  "version": "1.1.20210122.3",
+  "version": "1.2.20210123.1",
   "description": "A CSS micro framework with grid system usign CSS Grid, defined with 12 columns. Using responsive design.",
   "main": "index.js",
   "scripts": {

@@ -1,5 +1,5 @@
 /*
- * Gary CSS v1.1.20210122.1
+ * Gary CSS v1.2.20210123.1
  * Copyright 2021 The Gary CSS Authors
  * Licensed under MIT (https://github.com/Artikunazo/garycss/blob/main/LICENSE)
  */
@@ -96,24 +96,46 @@
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
-.row + .items-left {
+.row + .justify-items-left {
   justify-items: left;
 }
-.row + .items-center {
+.row + .justify-items-start {
+  justify-items: start;
+}
+.row + .justify-items-center {
   justify-items: center;
 }
-.row + .items-right {
+.row + .justify-items-right {
+  justify-items: right;
+}
+.row + .justify-items-end {
   justify-items: end;
 }
 
-.item-center {
+.justify-self-left {
   justify-self: left;
 }
-.item-center {
+.justify-self-start {
+  justify-self: start;
+}
+.justify-self-center {
   justify-self: center;
 }
-.item-right {
+.justify-self-right {
   justify-self: right;
+}
+.justify-self-end{
+  justify-self: end;
+}
+
+.align-self-start{
+  align-self:start;
+}
+.align-self-center{
+  align-self:center;
+}
+.align-self-end{
+  align-self:end;
 }
 
 .text-center {
@@ -164,6 +186,48 @@
   .xs-12 {
     grid-column: var(--column-12) / var(--column-12);
   }
+
+  .row + .justify-items-left {
+    justify-items: left;
+  }
+  .row + .justify-items-start-xs {
+    justify-items: start;
+  }
+  .row + .justify-items-center-xs {
+    justify-items: center;
+  }
+  .row + .justify-items-right-xs {
+    justify-items: right;
+  }
+  .row + .justify-items-end-xs {
+    justify-items: end;
+  }
+  
+  .justify-self-left-xs {
+    justify-self: left;
+  }
+  .justify-self-start-xs {
+    justify-self: start;
+  }
+  .justify-self-center-xs {
+    justify-self: center;
+  }
+  .justify-self-right-xs {
+    justify-self: right;
+  }
+  .justify-self-end-xs{
+    justify-self: end;
+  }
+  
+  .align-self-start-xs{
+    align-self:start;
+  }
+  .align-self-center-xs{
+    align-self:center;
+  }
+  .align-self-end-xs{
+    align-self:end;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -202,6 +266,48 @@
   }
   .sm-12 {
     grid-column: var(--column-12) / var(--column-12);
+  }
+
+  .row + .justify-items-left-sm {
+    justify-items: left;
+  }
+  .row + .justify-items-start-sm {
+    justify-items: start;
+  }
+  .row + .justify-items-center-sm {
+    justify-items: center;
+  }
+  .row + .justify-items-right-sm {
+    justify-items: right;
+  }
+  .row + .justify-items-end-sm {
+    justify-items: end;
+  }
+  
+  .justify-self-left-sm {
+    justify-self: left;
+  }
+  .justify-self-start-sm {
+    justify-self: start;
+  }
+  .justify-self-center-sm {
+    justify-self: center;
+  }
+  .justify-self-right-sm {
+    justify-self: right;
+  }
+  .justify-self-end-sm{
+    justify-self: end;
+  }
+  
+  .align-self-start-sm{
+    align-self:start;
+  }
+  .align-self-center-sm{
+    align-self:center;
+  }
+  .align-self-end-sm{
+    align-self:end;
   }
 }
 
@@ -242,6 +348,48 @@
   .md-12 {
     grid-column: var(--column-12) / var(--column-12);
   }
+
+  .row + .justify-items-left-md {
+    justify-items: left;
+  }
+  .row + .justify-items-start-md {
+    justify-items: start;
+  }
+  .row + .justify-items-center-md {
+    justify-items: center;
+  }
+  .row + .justify-items-right-md {
+    justify-items: right;
+  }
+  .row + .justify-items-end-md {
+    justify-items: end;
+  }
+  
+  .justify-self-left-md {
+    justify-self: left;
+  }
+  .justify-self-start-md {
+    justify-self: start;
+  }
+  .justify-self-center-md {
+    justify-self: center;
+  }
+  .justify-self-right-md {
+    justify-self: right;
+  }
+  .justify-self-end-md{
+    justify-self: end;
+  }
+  
+  .align-self-start-md{
+    align-self:start;
+  }
+  .align-self-center-md{
+    align-self:center;
+  }
+  .align-self-end-md{
+    align-self:end;
+  }
 }
 
 @media (min-width: 992px) {
@@ -280,5 +428,47 @@
   }
   .lg-12 {
     grid-column: var(--column-12) / var(--column-12);
+  }
+
+  .row + .justify-items-left-lg {
+    justify-items: left;
+  }
+  .row + .justify-items-start-lg {
+    justify-items: start;
+  }
+  .row + .justify-items-center-lg {
+    justify-items: center;
+  }
+  .row + .justify-items-right-lg {
+    justify-items: right;
+  }
+  .row + .justify-items-end-lg {
+    justify-items: end;
+  }
+  
+  .justify-self-left-lg {
+    justify-self: left;
+  }
+  .justify-self-start-lg {
+    justify-self: start;
+  }
+  .justify-self-center-lg {
+    justify-self: center;
+  }
+  .justify-self-right-lg {
+    justify-self: right;
+  }
+  .justify-self-end-lg{
+    justify-self: end;
+  }
+  
+  .align-self-start-lg{
+    align-self:start;
+  }
+  .align-self-center-lg{
+    align-self:center;
+  }
+  .align-self-end-lg{
+    align-self:end;
   }
 }
