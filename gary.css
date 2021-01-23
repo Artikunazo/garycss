@@ -23,12 +23,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  border: solid 1px red;
-}
-[class*="col-"],
-[class~="col"] {
-  height: 100px;
-  display: block;
 }
 .container {
   width: 70%;
@@ -46,8 +40,6 @@
 .md,
 .lg {
   grid-column: 1 / -1;
-  height: 100px !important;
-  display: block;
 }
 .col-1,
 [class~="-1"] {

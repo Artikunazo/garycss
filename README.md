@@ -46,7 +46,12 @@ Regards, Thx and Enjoy!
 
 
 
-#ChangeLog
+
+# ChangeLog
+
+## [1.1.20210122.3] 2021-01-22
+### Removed
+- Remove unnecesary code
 
 ## [1.1.20210122.1] 2021-01-22
 ### Added
