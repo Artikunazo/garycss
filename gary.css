@@ -96,6 +96,9 @@
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
+.row + .items-left {
+  justify-items: left;
+}
 .row + .items-center {
   justify-items: center;
 }
@@ -103,13 +106,14 @@
   justify-items: end;
 }
 
-[class~="col"] + .item-center,
-[class~="col-"] + .item-center {
-  align-self: center;
+.item-center {
+  justify-self: left;
 }
-[class~="col"] + .item-right,
-[class~="col-"] + .item-right {
-  align-self: end;
+.item-center {
+  justify-self: center;
+}
+.item-right {
+  justify-self: right;
 }
 
 .text-center {
@@ -119,7 +123,9 @@
   text-align: right;
 }
 
-/* text-align: left; is default */
+.text-left{
+  text-align: left;
+}
 
 @media (max-width: 575.98px) {
   .xs-1 {

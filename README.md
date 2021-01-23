@@ -13,17 +13,17 @@ $ npm install gary-css
 
 ### Row
 - .row: create a new row. The rows has the grid defined.
-     - .items-right: Align the items to the right.
+     - .items-left: Align the items to the left.
      - .items-center: Align the items to the center.
-     - Note: Align left is default
+     - .items-right: Align the items to the right.
      
 ### Col
 All columns must be within of a row
 - .col: define a new column that It will include the 12 columns. If You add more .col, these will be stacked
 - .col-1, ..., col-12: each number specify how much columns will be used, f.e. col-1 will be use 1 column, .col-5 will be use 5 columns.
-    - .item-center: Align the self item to center
-    - .item-right: Align the self item to right
-    - Note: Align left is default
+    - .item-left: Align the self item to left.
+    - .item-center: Align the self item to center.
+    - .item-right: Align the self item to right.
 
 ### Responsive breakpoints
 - You can use .xs, .sm, .md and .lg classes to use the 12 columns in a device respective:
@@ -48,6 +48,14 @@ Regards, Thx and Enjoy!
 
 
 # ChangeLog
+
+## [1.1.20210122.4] 2021-01-22
+### Added
++ Add text-left, items-left and item-left classes
+
+### Modified
+- Improve item-center and item-right classes
+- Update Readme.md
 
 ## [1.1.20210122.3] 2021-01-22
 ### Removed
