@@ -258,9 +258,6 @@ Regards, thx and Enjoy! :D
 - Change align classes name with -left to -top
 - Update Readme.md
 
-### Deleted
-- 
-
 
 ## [1.2.20210123.1] 2021-01-23
 

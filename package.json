@@ -1,6 +1,6 @@
 {
   "name": "gary-css",
-  "version": "1.3.2103",
+  "version": "1.3.2103.1",
   "description": "A micro CSS framework with 12 columns system usign CSS Grid.",
   "main": "index.js",
   "scripts": {
