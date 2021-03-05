@@ -1,7 +1,7 @@
 {
   "name": "gary-css",
-  "version": "1.2.20210123.1",
-  "description": "A CSS micro framework with grid system usign CSS Grid, defined with 12 columns. Using responsive design.",
+  "version": "1.3.2103",
+  "description": "A micro CSS framework with 12 columns system usign CSS Grid.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
