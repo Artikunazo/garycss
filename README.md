@@ -231,6 +231,45 @@ $ npm install gary-css
 ```
 <br />
 
+## Colors
+
+- You can use the following colors for texts:
+```
+	<p class="text-success">Lorem ipsum dolor sit amet.</p>
+    <p class="text-danger">Eos praesentium iusto commodi distinctio?</p>
+    <p class="text-warning">Libero ducimus sapiente architecto ipsum.</p>
+    <p class="text-muted">Sed rerum quae non beatae?</p>
+    <p class="text-primary">Nostrum voluptatum ea provident veniam.</p>
+    <p class="text-secondary">Doloremque doloribus velit quaerat iure!</p>
+    <p class="text-black">Error eligendi neque totam nobis.</p>
+    <p style="background-color: black;" class="text-white">Nostrum voluptate omnis iste praesentium.</p>
+```
+
+- For the buttons, you must add btn before a button action color:
+```
+	<button class="btn" type="button">
+        Std button
+    </button>
+    <button class="btn btn-success" type="button">
+        Success button
+    </button>
+    <button class="btn btn-primary" type="button">
+        Primary button
+    </button>
+    <button class="btn btn-warning" type="button">
+        Warning button
+    </button>
+    <button class="btn btn-danger" type="button">
+        Danger button
+    </button>
+    <button class="btn btn-black" type="button">
+        Black button
+    </button>
+    <button class="btn btn-white" type="button">
+        White button
+    </button>
+```
+
 ## Feedback
 
 All feedback is welcome!. You can send any feedback in https://github.com/Artikunazo/garycss/issues
@@ -243,6 +282,11 @@ Regards, thx and Enjoy! :D
 <br />
 
 # ChangeLog
+
+## [1.4.2111] 2021-11
+### Feature
++ Add text colors
++ Add buttons colors
 
   
 ## [1.3.2103] 2021-03
