@@ -1,10 +1,11 @@
 /*
- * Gary CSS v1.3.2103
+ * Gary CSS v1.4.2111
  * Copyright 2021 The Gary CSS Authors
  * Licensed under MIT (https://github.com/Artikunazo/garycss/blob/main/LICENSE)
  */
 
 :root {
+  /* Grid */
   --column-1: span 1;
   --column-2: span 2;
   --column-3: span 3;
@@ -17,6 +18,16 @@
   --column-10: span 10;
   --column-11: span 11;
   --column-12: span 12;
+
+  /* Colors */
+  --primary-color: #207bf1;
+  --secondary-color: #c0c0c0;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --warning-color: #f39007;
+  --danger-color: #db2929;
+  --success-color: #20c343;
+  --muted-color: var(--secondary-color);
 }
 
 *,
@@ -180,6 +191,88 @@
 }
 .text-left {
   text-align: left;
+}
+
+/* Colors */
+.text-primary{
+  color: var(--primary-color);
+}
+.text-secondary{
+   color: var(--secondary-color);
+}
+.text-success{
+   color: var(--success-color);
+}
+.text-warning{
+   color: var(--warning-color);
+}
+.text-danger{
+   color: var(--danger-color);
+}
+.text-muted{
+   color: var(--muted-color);
+}
+.text-white{
+   color: var(--white-color)
+}
+.text-black{
+   color: var(--black-color);
+}
+
+/* Forms */
+.btn{
+  border: none;
+  border-radius: 3px;
+  line-height: 1.5em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  box-sizing: content-box;
+  color: #333;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  border-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+}
+
+.btn:active{
+  box-shadow: inset 0px 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+.btn-primary{
+  color:white;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-success{
+  color:white;
+  background-color: var(--success-color);
+  border-color: var(--success-color);
+}
+
+.btn-warning{
+  color:white;
+  background-color: var(--warning-color);
+  border-color: var(--warning-color);
+}
+
+.btn-danger{
+  color:white;
+  background-color: var(--danger-color);
+  border-color: var(--danger-color);
+}
+.btn-black{
+  color:white;
+  background-color: var(--black-color);
+  border-color: var(--black-color);
+}
+.btn-black:active{
+  box-shadow: inset 0px 0px 0px 20px rgba(255,255,255,0.1);
+}
+
+.btn-white, .btn-default{
+  color:var(--black-color);
+  background-color: white;
+  border-color: var(--black-color);
+  border: solid 1px var(--secondary-color);
 }
 
 @media (max-width: 575.98px) {
