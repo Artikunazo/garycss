@@ -1,7 +1,7 @@
 {
   "name": "gary-css",
-  "version": "1.4.2111",
-  "description": "A micro CSS framework with 12 columns system usign CSS Grid.",
+  "version": "1.4.2111.1",
+  "description": "A micro CSS framework with 12-columns system usign CSS Grid.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,10 @@
     "css grid",
     "simple framework css",
     "css grid framework",
-    "framework minimalist css"
+    "framework minimalist css",
+    "css framerowkr lite",
+    "css framework",
+    "css framework minimalist"
   ],
   "author": "Artikunazo",
   "license": "MIT",
