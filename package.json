@@ -1,6 +1,6 @@
 {
   "name": "gary-css",
-  "version": "1.4.2111.1",
+  "version": "1.4.2111.2",
   "description": "A micro CSS framework with 12-columns system usign CSS Grid.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "simple framework css",
     "css grid framework",
     "framework minimalist css",
-    "css framerowkr lite",
+    "css framework lite",
     "css framework",
     "css framework minimalist"
   ],
