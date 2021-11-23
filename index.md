@@ -1,8 +1,4 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Artikunazo/garycss/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Welcome to Gary CSS
 
 ### Markdown
 
@@ -43,7 +39,7 @@ A micro CSS framework with 12 columns system usign CSS Grid.
 
   
 ### Installation:
-```
+```markdown
 
 $ npm install gary-css
 
@@ -82,7 +78,7 @@ $ npm install gary-css
 
 	- Examples:
 
-```
+```markdown
 	<div class="row justify-items-left"></div>
 	<div class="row justify-items-start"></div>
 	<div class="row justify-items-center"></div>
@@ -97,7 +93,7 @@ $ npm install gary-css
 
 	- Examples:
 
-```
+```markdown
 	<div class="row
 		justify-items-center-xs
 		justify-items-left-sm
@@ -105,6 +101,7 @@ $ npm install gary-css
 		justify-items-right-lg">
 	</div>
 ```
+
 - As well as, the justify-content is avaliable as classes together to a .row:
 	- Align content to start:
 		- .justify-content-start
@@ -131,7 +128,7 @@ $ npm install gary-css
 		- .justify-content-stretch
 		
 	- Example:
-```
+```markdown
 	<div class="row justify-content-start"></div>
 	<div class="row justify-content-left"></div>
 	<div class="row justify-content-center"></div>
@@ -146,7 +143,7 @@ $ npm install gary-css
 
 -  Also,  You can use the previous classes for responsive breakpoints, adding -xs, -sm, -md or -lg, that will apply the alignment in each breakpoint:
 	- Example:
-```
+```markdown
 	<div class="row justify-content-start-xs"></div>
 	<div class="row justify-content-center-sm"></div>
 	<div class="row justify-content-middle"></div>
@@ -185,7 +182,7 @@ $ npm install gary-css
 
 	- Example:
 
-```
+```markdown
 	<div class="row">
 		<div class="col justify-self-middle"></div>
 	</div>
@@ -195,7 +192,7 @@ $ npm install gary-css
 
 	- Example:
 
-```
+``````markdown
 	<div class="col
 		justify-self-left-xs
 		justify-self-right-sm
@@ -222,7 +219,7 @@ $ npm install gary-css
 
 	- Example:
 
-```
+```markdown
 	<div class="row">
 		<div class="col align-self-left"></div>
 	</div>
@@ -232,7 +229,7 @@ $ npm install gary-css
 
 	- Example:
 
-```
+```markdown
 	<div class="col
 		align-self-left-xs
 		align-self-right-sm
@@ -261,7 +258,7 @@ $ npm install gary-css
 
 - Also, You can use and combine .xs-number, .sm-number, .md-number and .lg-number classes, example:
 
-```
+```markdown
 	<div class="row">
 		<div class="col-6 xs-4 md-8 lg">
 		</div>
@@ -272,7 +269,7 @@ $ npm install gary-css
 ## Colors
 
 - You can use the following colors for texts:
-```
+```markdown
 	<p class="text-success">Lorem ipsum dolor sit amet.</p>
     <p class="text-danger">Eos praesentium iusto commodi distinctio?</p>
     <p class="text-warning">Libero ducimus sapiente architecto ipsum.</p>
@@ -284,7 +281,7 @@ $ npm install gary-css
 ```
 
 - For the buttons, you must add btn before a button action color:
-```
+```markdown
 	<button class="btn" type="button">
         Std button
     </button>
